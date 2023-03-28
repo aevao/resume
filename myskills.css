@@ -117,6 +117,24 @@ body {
   }
   /* skill bar end */
 
+  @media all and (max-width: 768px){
+   
+    .list__item a{
+      font-size: 11px;
+    }
+    #bar1 {
+      padding-right: 30%;
+  }
+  #bar2{
+    padding-right: 35%;
+  }
+  #bar3{
+    padding-right: 25%;
+  }
+  #bar4{
+    padding-right: 20%;
+  }
+  }
   @media all and (max-width: 576px){
    
   .list__item a{
