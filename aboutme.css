@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+.main {
+    width: 100vw;
+  
+    height: 100vh;
+    background-image: url("./images/kafklafj.png");
+    background-size: cover;
+    background-position: center;}
+    .content{
+        width: 90%;
+        margin: auto;
+        padding: 2% 0;
+        
+        
+    }
+    /* navbar start */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+  }
+  
+  .navbar__logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navbar__list {
+    display: flex;
+    list-style: none;
+   
+  }
+  
+  .list__item {
+    margin: 0 20px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  .list__item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .list__item a:hover {
+    background-color: #ff00ff ;
+    color: #fff;
+    
+  }
+  .features{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .features__img{
+    width: 25em;
+    height: 20em;
+    border-radius: 10%;
+  }
+  .featyres__desk{
+    width: 50%;
+    padding-top: 5%;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+  }
+    .features__title{
+        font-size: 25px;
+        color: #ffffff;
+        
+    }
+    
+    .features__info{
+        color: #fff;
+        font-size: 16px;
+    }
+    @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
