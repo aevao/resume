@@ -134,3 +134,24 @@ body {
       border-radius: 10%;
   }
 }
+@media all and (max-width: 768px) {
+  .list__item a{
+    font-size: 9px;
+  }
+  .features__img {
+    width: 11em;
+    height: 10em;
+    border-radius: 10%;
+}
+.features {
+  margin-top: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adaptive__info {
+  display: block;
+  color: white;
+  font-size: 10px;
+}
+}

@@ -110,3 +110,11 @@ body {
     color: #fff;
 
 }
+@media all and (max-width: 576px){
+    .header {
+      margin-top: 0%
+    }
+  .list__item a{
+    font-size: 11px;
+  }
+}

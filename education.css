@@ -103,3 +103,20 @@ body {
     color: #fff;
 }
   /* haeder end */
+
+  @media all and (max-width: 576px){
+    
+    .list__item a{
+      font-size: 11px;
+    }
+    .education{
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0%;
+      margin-left: 6%;
+      
+    }
+
+  }

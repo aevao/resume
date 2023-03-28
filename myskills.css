@@ -116,3 +116,22 @@ body {
     padding-right: 60%;
   }
   /* skill bar end */
+
+  @media all and (max-width: 576px){
+   
+  .list__item a{
+    font-size: 11px;
+  }
+  #bar1 {
+    padding-right: 25%;
+}
+#bar2{
+  padding-right: 30%;
+}
+#bar3{
+  padding-right: 20%;
+}
+#bar4{
+  padding-right: 15%;
+}
+}

@@ -189,9 +189,14 @@ body {
   .header{
     width: 100%;
   }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
   .header__right{
+    display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 .header__left{
@@ -228,6 +233,15 @@ body {
   .info-block__btn {
     width: 30%;
   }
+}
+@media all and (max-width: 576px){
+  
+.list__item a{
+  font-size: 11px;
+}
+.header__right_desc{
+  font-size: 11px;
+}
 }
 
 /* todo adaptive end */
