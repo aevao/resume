@@ -26,9 +26,31 @@
           <!-- forms -->
             <button class="navbar__btn"><a href="./forms.html" class="Navbar__bnt_url">charter</a></button>
         <!-- forms -->
-                    <!-- todo для других html файлов -->
+        <img src="./images/burger_btn.png" alt="" class="navbar__burger_btn" />
 
+                    <!-- todo для других html файлов -->
+            <!--burger start  -->
+      <div class="burger-menu">
+        <div class="burger-menu__content">
+          <img
+            src="./images/cancel_btn.png"
+            alt=""
+            class="burger-menu__btn_close"
+          />
+          
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item"><a href="./aboutme.html">about me</a></li>
+            <li class="burger-menu__item">
+              <a href="./myskills.html">My skills</a>
+            </li>
+            <li class="burger-menu__item"><a href="./education.html">education</a></li>
+            <li class="burger-menu__item"><a href="./hobbies.html">hobbies</a></li>
+          </ul>
         </div>
+      </div>
+      <!-- burger end -->
+        </div>
+        
         <!-- navbar end -->
         <!-- header start -->
         <div class="header">
@@ -42,6 +64,7 @@
               <li class="header__list_socials"><a href="#"><img src="./images/whatsapp.png" alt="" class="header__socials"></a></li>
               
             </ul>
+            
           </div>
           <div class="header__right">
             <div class="header__right_title">hi</div>
@@ -54,5 +77,19 @@
         <!-- header end -->
       </div>
     </div>
+    <script>
+      let openBtn = document.querySelector(".navbar__burger_btn");
+      let closeBtn = document.querySelector(".burger-menu__btn_close");
+      let burgerMenu = document.querySelector(".burger-menu");
+
+      openBtn.addEventListener(
+        "click",
+        () => (burgerMenu.style.display = "block")
+      );
+      closeBtn.addEventListener(
+        "click",
+        () => (burgerMenu.style.display = "none")
+      );
+    </script>
   </body>
 </html>
